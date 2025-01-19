@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations sur le chien</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .image-container {
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .info {
+            text-align: left;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+
+        .info p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Informations sur Rocket</h1>
+        </div>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/150" alt="Photo de Rocket">
+        </div>
+        <div class="info">
+            <p><strong>Nom :</strong> Rocket</p>
+            <p><strong>Race :</strong> Corgi</p>
+            <p><strong>Identifiant :</strong> #DDPQNJ5</p>
+            <p><strong>Contact :</strong> +33 6 12 34 56 78</p>
+            <p><strong>Adresse :</strong> 12 Rue des Champs, 75000 Paris</p>
+            <p><strong>Particularités :</strong> Très sociable, adore les enfants.</p>
+        </div>
+        <a href="tel:+33612345678" class="btn">Appeler le propriétaire</a>
+        <footer>
+            <p>Page générée pour Rocket - Merci de nous contacter si vous le trouvez.</p>
+        </footer>
+    </div>
+</body>
+</html>
