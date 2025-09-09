@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations sur Astra</title>
+    <!-- Police Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Styles globaux */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #eaf1f6);
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Animation d'apparition */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Header */
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        /* Image */
+        .image-container {
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 5px solid #4CAF50;
+        }
+
+        /* Infos */
+        .info {
+            text-align: left;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            background-color: #fdfdfd;
+        }
+
+        .info p {
+            margin: 10px 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .info strong {
+            color: #4CAF50;
+        }
+
+        /* Boutons */
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            margin: 15px 10px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rocket</h1>
+        </div>
+        <div class="image-container">
+            <img src="astra.JPEG" alt="Photo d'Astra">
+        </div>
+        <div class="info">
+            <p><strong>Nom :</strong> Astra</p>
+            <p><strong>Affixe :</strong> All by myself de la Caverne des Anges</p>
+            <p><strong>Date de naissance :</strong> 30/05/2025</p>
+            <p><strong>Race :</strong> Welsh Corgi Cardigan</p>
+            <p><strong>Robe :</strong> Merle bleu</p>
+            <p><strong>M/F :</strong> Femelle </p>
+            <p><strong>N° de puce :</strong> 250269101376839</p>
+            <p><strong>N° de tatouage :</strong> 340 EGA</p>
+            <p><strong>Contact 1 - Clément :</strong> +33 6 48 27 64 74</p>
+            <p><strong>Contact 2 - Hervine :</strong> +33 6 44 23 45 97</p>
+            <p><strong>Adresse :</strong> 5 rue Michel Chauty, 44800 Saint-Herblain, France</p>
+            <p><strong>Caractère :</strong> Très sociable avec les humains et les chiens.</p>
+            <p><strong>Santée :</strong> N/A</p>
+        </div>
+        <a href="tel:+33648276474" class="btn">Appeler Clément</a>
+        <a href="tel:+33644234597" class="btn">Appeler Hervine</a>
+        <a href="https://www.google.com/maps?q=5+rue+michel+chauty,+44800+Saint-Herblain,+France" 
+           class="btn" target="_blank">Voir sur la carte</a>
+    </div>
+
+    <footer>
+        <p>Merci de nous contacter si vous trouvez Rocket.</p>
+    </footer>
+</body>
+</html>
